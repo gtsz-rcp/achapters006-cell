@@ -1,0 +1,7 @@
+template: "achapters-template"
+manuscript_dir: manuscript
+tex_dir: tex
+codename: cell
+working_dir: '.'
+toc_file: "toc.cell.yaml"
+manuscript_format: md

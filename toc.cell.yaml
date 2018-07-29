@@ -1,0 +1,58 @@
+meta:
+    title: "11.11.11 - 13.03.02, 288"
+    author: "김승해"
+    date_published: "2018-10-12"
+    editor: 미루
+    designer: 써드엔지니어링카르텔
+    license: 이 책에 수록된 저작물 중 별도로 표기되지 않은 모든 저작물의 저작권은 저자에게 있습니다. 크리에이티브커먼즈 저작자표시-동일조건변경허락 4.0 국제 라이센스
+    publisher:
+        name: 금치산자레시피
+        email: gtsz.rcp@gmail.com
+        website: http://gtszrcp.com
+        instagram: "gtsz.rcp"
+
+cover:
+    artwork_type: web
+    artist_firstname: Secoy
+    artist_lastname: A
+    title: Part of the antenna array at the High-Frequency Active Auroral Research Program
+    year: 2016
+    references: https://commons.wikimedia.org/wiki/File:HAARP_Antenna_Array_Transmitter_Buildings.jpg
+    medium: digital
+    date_of_access: "2018-07-15"
+    institution: Wikimedia Commons
+    license: Creative Commons Attribution-Share Alike 4.0 International
+
+contents:
+    - title: 2013년 3월 2일
+      layout: article
+      filename: rehab
+    
+    - title: 진술서
+      layout: article
+      filename: testifie
+
+    - title: 복도, 천사들
+      layout: lyric
+      filename: hallway
+
+    - title: 거실
+      layout: lyric
+      filename: living-room
+
+    - title: 율법
+      layout: lyric
+      filename: law
+
+    - title: 산의 중턱에서
+      layout: article
+      filename: middle-of-mountain
+
+    - title: 침몰하는 땅
+      layout: lyric
+      filename: landfall
+
+    - title: 우리의 끝
+      layout: lyric
+      filename: timefall
+    
