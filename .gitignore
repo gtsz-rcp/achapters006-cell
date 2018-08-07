@@ -1,0 +1,6 @@
+BartlebyMachine
+*.jpg
+.vagrant
+*.psd
+*.pdf
+*.ai

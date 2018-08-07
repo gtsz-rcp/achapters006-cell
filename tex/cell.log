@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.14)  28 JUL 2018 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.14)  5 AUG 2018 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,7 +730,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 ...ntsline {chapter}{진술서}{1}{chapter*.2}
+l.2 ...{chapter}{2013년 3월 2일}{1}{chapter*.2}
                                                   
 ? 
 
@@ -740,7 +740,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...{chapter}{복도, 천사들}{5}{chapter*.3}
+l.3 ...ntsline {chapter}{진술서}{6}{chapter*.3}
                                                   
 ? 
 
@@ -750,7 +750,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \contentsline {chapter}{거실}{7}{chapter*.4}
+l.4 ...chapter}{복도, 천사들}{10}{chapter*.4}
                                                   
 ? 
 
@@ -760,7 +760,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \contentsline {chapter}{율법}{8}{chapter*.5}
+l.5 ...tentsline {chapter}{거실}{12}{chapter*.5}
                                                   
 ? 
 
@@ -770,7 +770,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...hapter}{산의 중턱에서}{9}{chapter*.6}
+l.6 ...tentsline {chapter}{율법}{13}{chapter*.6}
                                                   
 ? 
 
@@ -780,7 +780,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 ... {chapter}{침몰하는땅}{23}{chapter*.7}
+l.7 ...apter}{산의 중턱에서}{14}{chapter*.7}
                                                   
 ? 
 
@@ -790,7 +790,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...ne {chapter}{우리의 끝}{25}{chapter*.8}
+l.8 ... {chapter}{침몰하는땅}{29}{chapter*.8}
                                                   
 ? 
 
@@ -800,7 +800,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 ...chapter}{2013년 3월 2일}{28}{chapter*.9}
+l.9 ...ne {chapter}{우리의 끝}{31}{chapter*.9}
                                                   
 ? 
 )
@@ -849,44 +849,34 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [3]
+Overfull \hbox (0.37895pt too wide) in paragraph at lines 101--102
+[]\LUC/nanummj/m/n/12/ad P\LUC/nanummj/m/n/12/b3 �\LUC/nanummj/m/n/12/c1 �\LUC/
+nanummj/m/n/12/c5 �\LUC/nanummj/m/n/12/c1 ^^\ \LUC/nanummj/m/n/12/c6 U\LUC/nanu
+mmj/m/n/12/c9 �\LUC/nanummj/m/n/12/b3 �\LUC/nanummj/m/n/12/c7 X \LUC/nanummj/m/
+n/12/bc �\LUC/nanummj/m/n/12/c6 �\LUC/nanummj/m/n/12/c7 <\LUC/nanummj/m/n/12/b8
+ \\OT1/cmr/m/n/12 , \LUC/nanummj/m/n/12/bc �\LUC/nanummj/m/n/12/c6 �\LUC/nanumm
+j/m/n/12/c5 �\LUC/nanummj/m/n/12/c1 ^^\ \LUC/nanummj/m/n/12/ad �
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [4]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[5
-
-]
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[6]
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[7
-
-]
-
-! LaTeX Error: \begin{lyric} on input line 143 ended by \end{article}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 \end{article}
-                   
-? 
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[8
+[6
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -895,47 +885,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[9
-
-]
+[7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[10]
+[8]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[10
+
+]
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [11]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[12
+
+]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[13
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[14
 
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+]
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
@@ -982,6 +977,9 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
@@ -992,9 +990,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[23
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
@@ -1005,9 +1004,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[25
-
-]
+[25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1015,17 +1012,37 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [26]
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[28
+[27]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[29
+
+]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[31
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1034,73 +1051,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[30]
-Overfull \hbox (0.37895pt too wide) in paragraph at lines 308--309
-[]\LUC/nanummj/m/n/12/ad P\LUC/nanummj/m/n/12/b3 �\LUC/nanummj/m/n/12/c1 �\LUC/
-nanummj/m/n/12/c5 �\LUC/nanummj/m/n/12/c1 ^^\ \LUC/nanummj/m/n/12/c6 U\LUC/nanu
-mmj/m/n/12/c9 �\LUC/nanummj/m/n/12/b3 �\LUC/nanummj/m/n/12/c7 X \LUC/nanummj/m/
-n/12/bc �\LUC/nanummj/m/n/12/c6 �\LUC/nanummj/m/n/12/c7 <\LUC/nanummj/m/n/12/b8
- \\OT1/cmr/m/n/12 , \LUC/nanummj/m/n/12/bc �\LUC/nanummj/m/n/12/c6 �\LUC/nanumm
-j/m/n/12/c5 �\LUC/nanummj/m/n/12/c1 ^^\ \LUC/nanummj/m/n/12/ad �
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[31]
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
 [32]
-Overfull \hbox (6.24501pt too wide) in paragraph at lines 348--349
-[]\OT1/cmr/m/n/10 Creative Com-mons Attribution-Share
- []
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
+
+[33]
 
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (0.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 356.
+(in both cases you will find help in the memoir manual). on input line 364.
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[33
+[34
 
 
 ]
 \tf@toc=\write5
 \openout5 = `cell.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
  (./cell.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 364.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
 Package rerunfilecheck Info: File `cell.out' has not changed.
-(rerunfilecheck)             Checksum: 97AEBD15948EE7EC5A659B699FDD0B5B;368.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
+(rerunfilecheck)             Checksum: 00AEA0A46E824FB4886BD654F21A6C9C;368.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 364.
  ) 
 Here is how much of TeX's memory you used:
- 9675 strings out of 492646
- 139730 string characters out of 6133325
- 273335 words of memory out of 5000000
+ 9676 strings out of 492646
+ 139737 string characters out of 6133325
+ 274296 words of memory out of 5000000
  13376 multiletter control sequences out of 15000+600000
  47989 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,12n,34p,1343b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,12n,34p,1336b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist
@@ -1173,10 +1162,10 @@ type1/nanummjmd4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
 nanummjmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumm
 jmd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.p
 fb>
-Output written on cell.pdf (37 pages, 3365185 bytes).
+Output written on cell.pdf (38 pages, 3368516 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 54 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 meta:
-    title: "11.11.11 - 13.03.02, 288"
+    title: "1x4"
     author: "김승해"
     date_published: "2018-10-12"
     editor: 미루
@@ -12,22 +12,18 @@ meta:
         instagram: "gtsz.rcp"
 
 cover:
-    artwork_type: web
-    artist_firstname: Secoy
-    artist_lastname: A
-    title: Part of the antenna array at the High-Frequency Active Auroral Research Program
-    year: 2016
-    references: https://commons.wikimedia.org/wiki/File:HAARP_Antenna_Array_Transmitter_Buildings.jpg
-    medium: digital
-    date_of_access: "2018-07-15"
-    institution: Wikimedia Commons
-    license: Creative Commons Attribution-Share Alike 4.0 International
+    artist_firstname: "?"
+    artist_lastname: "?"
+    title: "Witchcraft: the devil talking to a gentleman and a judge"
+    year: 1720
+    references: http://catalogue.wellcomelibrary.org/record=b1201930
+    medium: Woodcut
+    date_of_access: "2018-08-05"
+    institution: Wellcome Library
+    plate: The history of witches and wizards, London 1720, p. 140
+    license: Creative Commons Attribution 4.0 International
 
 contents:
-    - title: 2013년 3월 2일
-      layout: article
-      filename: rehab
-    
     - title: 진술서
       layout: article
       filename: testifie
@@ -56,3 +52,6 @@ contents:
       layout: lyric
       filename: timefall
     
+    - title: 2013년 3월 2일
+      layout: article
+      filename: rehab
