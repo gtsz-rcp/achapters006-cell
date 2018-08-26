@@ -5,3 +5,12 @@ BartlebyMachine
 *.pdf
 *.ai
 .BridgeSort
+*.pdf
+*.png
+*.aux
+*.log
+*.toc
+*.gz
+*.out
+*.indd
+*.idlk

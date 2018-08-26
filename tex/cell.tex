@@ -1,18 +1,24 @@
-%!TEX TS-program = xelatex
+%!TEX TS-program = pdflatex
+% Define a geometric sizes of this book
 \documentclass[12pt, b6paper, openany]{memoir}
-
 \usepackage[cm]{fullpage}
 \setstocksize{182mm}{128mm}
-\usepackage{enumitem}
 \usepackage[paperwidth=128mm, paperheight=182mm, top=1.5cm, bottom=2.2cm, inner=2cm, outer=2.5cm]{geometry}
-\usepackage{titlesec}
-\usepackage{kotex}
-\usepackage[breaklinks=true]{hyperref}
-\hypersetup{colorlinks, citecolor=blank, filecolor=blank, linkcolor=blank, urlcolor=blank}
 
+% Call the package to use Korean in latex
+\usepackage{kotex}
+
+% Call the packages to handling the elements of this book
+\usepackage{enumitem}
+\usepackage{titlesec}
 \usepackage{epigraph}
 \setlength\epigraphwidth{1\textwidth}
 
+% Modify a style of hyperlinks in pdf
+\usepackage[breaklinks=true]{hyperref}
+\hypersetup{colorlinks, citecolor=blank, filecolor=blank, linkcolor=blank, urlcolor=blank}
+
+% Define cleartoleftpage, cleartorightpage command
 \makeatletter
 \newcommand*{\cleartoleftpage}{\clearpage\if@twoside\ifodd\c@page\hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \makeatother
@@ -21,35 +27,38 @@
 \newcommand*{\cleartorightpage}{\clearpage\if@twoside\ifeven\c@page\hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \makeatother
 
+% Modify a style of titling pages
 \usepackage{titling}
-%define titlingpage
 \pretitle{\begin{flushleft}\begin{normalsize}\begin{textbf}}
 \posttitle{,}
 \preauthor{\end{textbf}}
 \postauthor{,}
 \predate{}
 \postdate{\end{normalsize}\end{flushleft}}
-% Set title of tableofcontent
-\renewcommand{\contentsname}{차례}
-% set tableofcontent
-\maxtocdepth{chapter}
-\renewcommand{\baselinestretch}{1.35}
+
+% Modify table of contents
+\renewcommand{\contentsname}{차례} % Redefine title of table of content
+\maxtocdepth{chapter} % Set tableofcontent max depth to chapter
+
+% Set max depth of print title numbers on title hiarachy 
 \setsecnumdepth{part}
-\setlength{\beforechapskip}{0pt}
 
-\titleformat{\chapter}{\filright}{}{0pt}{\normalfont\large\bfseries}
-\titlespacing*{\chapter}{0pt}{0pt}{2\baselineskip}
-
+% Set basic paragraph style
+\renewcommand{\baselinestretch}{1.35}
 \setlength{\parskip}{1em}
 
-\newenvironment{lastnote}{%
-	\clearpage\vspace*{\fill}%
-	\begin{footnotesize}
-}{%
-	\end{footnotesize}
-}
+% Set style of chapter title
+\titleformat{\chapter}{\filright}{}{0pt}{\normalfont\large\bfseries}
+\titlespacing*{\chapter}{0pt}{0pt}{2\baselineskip}
+\setlength{\beforechapskip}{0pt}
 
+% Define lastnote environment
+\newenvironment{lastnote}{\clearpage\vspace*{\fill}\begin{footnotesize}}{\end{footnotesize}}
+
+% Define lyric environment to render the manuscripts to look like lyrics, poets
 \newenvironment{lyric}{\setlength{\parindent}{0pt}}{}
+
+% Define article environment to render the manuscripts to look like article, novels, essay
 \newenvironment{article}{}{}
 
 
@@ -57,14 +66,14 @@
 
 \setcounter{secnumdepth}{0}
 
-% Footnotes: 
 
 
-% Title, authors, date.
+% Set metadatas of this book
 \title{1x4}
 \author{김승해}
 \date{2018}
 
+% Declare a start of this book
 \begin{document}
 
 \frontmatter
@@ -200,8 +209,6 @@
 
 이들 무리는 오랫동안 나의 지시에 따라 움직였고, 얼마지나 나는 그들과 결별하게 되었다. 이들은 이미 각자 머리통을 갖고 있었고 머리통들이 회복되기 시작하면서 피부가 두개골을 가리기 시작했기 때문이다. 피부가 두개골을 가리기 전에 다시 사용해야만 했다.
 
-이들과 결별한 후 오랫동안 혼자 이동했다. 저들이 말한 '엄청난 빛'과 마주친 적이 있었고, 대지가 울리는 소리를 들은 적도 있었다.
-
 내게 굳은살에 대해 말한 `그들'을 또 보게 되었다. 그들로부터 내가 이전에 안내한 것으로 추정되는 무리에 대한 소식을 듣게 되었다. 둘이 머리를 끌며 이동하던 중 십 수명의 시체와 마주치게 되었는데 마침 발생한 산 아래의 빛을 통해 그들 중 몇 명의 머리통에서 각질이 발생하기 시작한 것을 볼 수 있었다고 한다. 하지만 그들의 머리통은 이미 너덜너덜하게 박살 난 상태였다고 한다. 추정컨대 그들은 각질이 생긴 머리통의 독점 여부를 놓고 다툼을 벌인 것으로 보인다. 다만 머리통의 시체에서 발생한 각질은 여전히 쓸모 있을 것으로 생각했고, 그들은 그의 머리통의 머리에 굳은살이 생긴 머리통 일부를 보철하는 시도를 해 보았다고 한다. 그 시도는 효과가 있었다. 이미 죽은 머리통은 꽤 큰 상태로 발달했고, 보철한 머리통 세 개 중 하나로부터 굳은살이 발달하기 시작해 그와 함께하던 머리통의 각질과 더불어 함께 자라기 시작했다고 한다. 나는 그것과 상관없이 기꺼이 그들을 안내하기로 하였는데, 그것은 처음 내게 중요한 정보를 선뜻 알려준 이들에 대한 예우였다.
 
 우린 오랫동안 길을 걸었고, 나의 불안이 완전히 가신 것은 아니지만, 그럼에도 우리 사이에는 일종의 우정이라고 할 만한 감정이 오갔다. 그가 보인 머리통에 대한 우정, 피할 수 없는 희생에 대한 죄책감에 나는 깊이 공감했고, 그가 언뜻 내보이는 다른 가능성에 대한 모색은 내게도 깊은 충만감을 선사했다.
@@ -317,7 +324,7 @@
 
 이 책에 포함된 6편의 글 중 병역거부 진술서와 이 글을 제외한 나머지는 모두 교도소에서 작성되었다. 각각의 글은 짧고 의뭉스러울 것이다. 불시에 들이닥쳐 노트를 펼쳐보는 무식하고 야만적인 독자들의 눈길을 피하기 위함이었는데 지금 생각해보면 다 쓸데없는 짓이었을지도 모르겠다. 그냥 안 쓰고 그만두면 되는 일이었다. 그게 가장 쉬운 일이었을 것이다. 내겐 이런 걸 재빠르게 알아채 수행하는 영민함이 부족하다. 게다가 그때 쓴 글들을 지금 다시 보니 누가 보아도 수상쩍어했을 것 같다. 차라리 정직하게 존나 탈옥하고 싶다고, 마음 속에만 담아뒀던 탈옥 계획을 자세히 쓸 걸 그랬다. 이쪽이 덜 수상할테니까. 하지만 쓰지 않았다. 쓰면 하게 된다. 반드시 하게 된다. 글쓰기는 날 움직이게 한다. 난 이게 가장 두렵다.
 
-이 책에 실릴 글들은 나의 수감 생활에 대해 아무것도 이야기해주지 않을 것이다. 한편 내가 늘 말해온 안정되고 안락했던 나의 수감 생활을 증언해줄 것이다. 안정과 안락함은 그때도, 지금도 내가 설정할 수 있는 최고의 목표니까 말이다.
+이 책에 실릴 글들은 나의 수감 생활에 대해 아무것도 이야기해주지 않을 것이다. 한편 내가 늘 말해온 안정되고 안락했던 나의 수감 생활을 증언해줄 것이다. 안정과 안락함은 그때도, 지금도 내가 설정할 수 있는 최고의 목표니까 말이다. 어쩌면 재미난 이야기들을 할 수도 있었을 것이다. 좀 더 길고 좀 더 자세히 이야기 할 수도 있었을거다. 하지만 그게 잘 안되었다. 이 이야기를 위해 내가 동원할 수 있는 언어는 딱 여기까지다. 나는 나의 이야기를 위해 언어를 다시 만들어야만 한다. 그럴 만한 가치가 있을지는 잘 모르겠다.
 
 당신들의 안정을 빈다.
 \end{article}
@@ -351,7 +358,7 @@ gtsz.rcp
 
 \begin{description}[itemsep=1pt,parsep=1pt]%
 \item[표지 도판]%
-?, ?. Witchcraft: the devil talking to a gentleman and a judge. 1720
+?. Witchcraft: the devil talking to a gentleman and a judge. 1720
 \item[표지 도판 저작권]%
 Creative Commons Attribution 4.0 International
 \end{description}
@@ -362,3 +369,4 @@ Creative Commons Attribution 4.0 International
 \end{description}
 \end{lastnote}
 \end{document}
+% Declare a end of this book
